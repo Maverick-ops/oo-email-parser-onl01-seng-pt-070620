@@ -10,6 +10,9 @@ class EmailAddressParser
     csv_emails.split.collect do |address|
       address.split (" , ")
     end 
+  end 
+
+
 
 end 
 
